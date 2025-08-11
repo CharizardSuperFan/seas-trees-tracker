@@ -1,14 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seas & Trees Donation Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f9fdfb;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #e6f2ff, #f2fff9);
             color: #003366;
             margin: 0;
             padding: 0;
@@ -18,28 +18,44 @@
             padding: 20px;
         }
         header img {
-            max-width: 150px;
+            max-width: 140px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
         }
         h1 {
-            font-size: 2em;
+            font-size: 2.2em;
             color: #0066cc;
+            margin-bottom: 8px;
+        }
+        .title-underline {
+            width: 60px;
+            height: 4px;
+            background-color: #009933;
+            margin: 0 auto 25px auto;
+            border-radius: 2px;
         }
         p {
-            font-size: 1.1em;
+            font-size: 1.05em;
             max-width: 600px;
             margin: 0 auto 40px;
             line-height: 1.5;
+            color: #444;
         }
         .counter {
-            font-size: 4em;
-            font-weight: bold;
+            font-size: 3.8em;
+            font-weight: 800;
             color: #009933;
-            margin: 30px 0;
+            background: #ffffff;
+            padding: 25px 40px;
+            border-radius: 16px;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            margin-top: 20px;
         }
         footer {
             margin-top: 50px;
             padding: 10px;
-            font-size: 0.9em;
+            font-size: 0.85em;
             color: #666;
         }
     </style>
@@ -50,9 +66,13 @@
     </header>
     <main>
         <h1>Seas & Trees Donation Tracker</h1>
+        <div class="title-underline"></div>
         <p>Every cent of ad revenue from our AI-generated nature videos goes directly to TeamSeas 🌊 and TeamTrees 🌳.
            We update this counter every 15 days to reflect total donations made so far.</p>
         <div class="counter">$0</div> <!-- CHANGE THIS NUMBER EVERY 15 DAYS -->
     </main>
+    <footer>
+        &copy; 2025 Seas & Trees. All rights reserved.
+    </footer>
 </body>
 </html>
